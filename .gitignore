@@ -1,0 +1,25 @@
+# Build trees and local artefacts are never committed.
+build/
+build-*/
+consumer-build/
+out/
+cmake-build-*/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.lib
+*.dll
+*.so
+*.dylib
+*.a
+compile_commands.json
+CMakeUserPresets.json
+.vs/
+.vscode/
+.idea/
+
+# Runtime state produced by local runs (never part of the repository).
+ctf-data/
+*.snapshot
+*.journal

@@ -1,0 +1,11 @@
+add_executable(example_admission example_admission.cpp)
+target_link_libraries(example_admission PRIVATE ctf)
+ctf_apply_warnings(example_admission)
+
+add_executable(example_transport example_transport.cpp)
+target_link_libraries(example_transport PRIVATE ctf)
+ctf_apply_warnings(example_transport)
+
+add_executable(example_supersession example_supersession.cpp)
+target_link_libraries(example_supersession PRIVATE ctf)
+ctf_apply_warnings(example_supersession)
